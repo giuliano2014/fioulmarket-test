@@ -1,0 +1,44 @@
+.AuthForm .form-item {
+  margin-bottom: 15px;
+}
+
+.AuthForm .form-item label {
+  box-sizing: border-box;
+  color: #6c757d;
+  padding: 0 10px;
+}
+
+.AuthForm .form-item input {
+  border: 1px solid #c1c1c1;
+  border-radius: 8px;
+  box-sizing: border-box;
+  height: 40px;
+  padding: 0 10px;
+  width: 100%;
+}
+
+.AuthForm .form-item.has-error input {
+  border-color: #dc3545;
+}
+
+.AuthForm .form-item .error-message {
+  color: #dc3545;
+  font-size: 12px;
+  display: block;
+}
+
+.AuthForm .navbar-text a {
+  color: #6c757d;
+  font-size: 14px;
+}
+
+.AuthForm button {
+  background-color: #dc3545;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  height: 40px;
+  font-size: 15px;
+  text-transform: uppercase;
+  width: 100%;
+}

@@ -1,2 +1,32 @@
-.TabComponent {}
+.TabComponent {
+  left: 50%;
+  min-height: 300px;
+  min-width: 70vw;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
 
+.TabComponent .nav-pills .nav-link {
+  background-color: #f2f2f2;
+  color: #6c757d;
+}
+
+.TabComponent .nav-pills .nav-link.active,
+.TabComponent .nav-pills .show>.nav-link {
+  background-color: transparent;
+  color: #17a2b8;
+}
+
+.TabComponent .nav-item {
+  flex-basis: 50%;
+  text-align: center;
+}
+
+.TabComponent .nav-item:hover a {
+  color: #17a2b8;
+}
+
+.TabComponent .tab-content {
+  padding: 50px;
+}

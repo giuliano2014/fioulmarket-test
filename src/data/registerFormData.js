@@ -1,17 +1,17 @@
-export const inputs = [
+export const formFields = [
   {
     label: 'Email',
-    name: 'email',
+    name: 'registerEmail',
     type: 'email',
   },
   {
     label: 'Password',
-    name: 'password',
+    name: 'registerPassword',
     type: 'password',
   },
   {
     label: 'Confirm password',
-    name: 'confirmPassword',
+    name: 'registerConfirmPassword',
     type: 'password',
   }
 ];

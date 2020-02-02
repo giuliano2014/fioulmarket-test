@@ -4,6 +4,7 @@ import { Nav, Tab } from 'react-bootstrap';
 import './TabComponent.css';
 
 import RegisterForm from '../Form/RegisterForm';
+import LoginForm from '../Form/LoginForm';
 
 const LOGIN = 'login';
 const REGISTER = 'register';
@@ -11,7 +12,7 @@ const REGISTER = 'register';
 const TabComponent = () => (
   <div className="TabComponent">
     <Tab.Container defaultActiveKey={LOGIN}>
-      <Nav variant="pills" className="flex-column">
+      <Nav variant="pills">
         <Nav.Item>
           <Nav.Link eventKey={LOGIN}>J'ai un compte</Nav.Link>
         </Nav.Item>
@@ -21,7 +22,7 @@ const TabComponent = () => (
       </Nav>
       <Tab.Content>
         <Tab.Pane eventKey={LOGIN}>
-          Login form here...
+          <LoginForm />
         </Tab.Pane>
         <Tab.Pane eventKey={REGISTER}>
           <RegisterForm />
