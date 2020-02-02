@@ -13,7 +13,6 @@ const initialValues = Object.fromEntries(
 
 const RegisterForm = () => (
   <div className="RegisterForm">
-    <h1>Registration form</h1>
     <Formik
       initialValues={initialValues}
       validationSchema={registerFormValidationSchema}

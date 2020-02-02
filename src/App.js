@@ -1,13 +1,14 @@
 import React from 'react';
 
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 
-import RegisterForm from './Form/RegisterForm';
+import TabComponent from './Tab/TabComponent';
 
 function App() {
   return (
     <div className="App">
-      <RegisterForm />
+      <TabComponent />
     </div>
   );
 }
