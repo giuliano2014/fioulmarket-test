@@ -1,0 +1,28 @@
+.GenericInputField {
+  margin-bottom: 15px;
+}
+
+.GenericInputField label {
+  box-sizing: border-box;
+  color: #6c757d;
+  padding: 0 10px;
+}
+
+.GenericInputField input {
+  border: 1px solid #c1c1c1;
+  border-radius: 8px;
+  box-sizing: border-box;
+  height: 40px;
+  padding: 0 10px;
+  width: 100%;
+}
+
+.GenericInputField.has-error input {
+  border-color: #dc3545;
+}
+
+.GenericInputField .error-message {
+  color: #dc3545;
+  font-size: 12px;
+  display: block;
+}
